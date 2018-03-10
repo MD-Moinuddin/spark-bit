@@ -1,0 +1,47 @@
+
+.footer-section {
+	padding: 0 150px;
+	background: url(../img/footer-bg.png);
+	background-size: cover;
+}
+
+.upper-footer {
+	padding: 30px 0;
+}
+
+.upper-footer-heading {
+	text-align: center;
+}
+
+.my-form-control {
+    border-radius: 25px;
+    background: #f6ffff;
+    color: #afd6ef;
+    margin: 15px 0;
+    font-size: 12px;
+}
+
+.my-form-control-message {
+    border-radius: 25px;
+    background: #f6ffff;
+    color: #afd6ef;
+    font-size: 12px;
+    margin: 15px 0;
+    padding-bottom: 92px;
+}
+
+.my-btn-footer {
+	background-color: transparent;
+	border-radius: 0;
+	border: none;
+	font-size: 12px;
+	font-weight: bold;
+	color: #031d5b;
+	background: url(../img/button-bg.png);
+	padding: 10px 30px;
+	margin-left: 145px;
+
+	&:hover {
+		background-color: transparent;			
+	}
+}
