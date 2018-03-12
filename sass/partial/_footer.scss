@@ -1,6 +1,6 @@
 
 .footer-section {
-	padding: 0 150px;
+	padding: 5px 150px;
 	background: url(../img/footer-bg.png);
 	background-size: cover;
 }
@@ -10,7 +10,11 @@
 }
 
 .upper-footer-heading {
-	text-align: center;
+ 	text-align: center;
+    color: #031d5b;
+    font-size: 22px;
+    font-weight: 550;
+
 }
 
 .my-form-control {
@@ -43,5 +47,32 @@
 
 	&:hover {
 		background-color: transparent;			
+	}
+}
+
+
+/*social-icon-part*/
+
+.lower-footer {
+	padding-top: 90px;
+}
+
+.copyright-text {
+	font-size: 12px;
+	font-weight: 550;
+	color: #031d5b;
+}
+
+.social-icon-part {
+	display: flex;
+	justify-content: flex-end;
+
+	li {
+		display: inline-block;
+	}
+
+	.my-social-icon {
+		padding: 5px;
+	    color: #031d5b;
 	}
 }
