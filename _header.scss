@@ -1,0 +1,79 @@
+
+.header-section {
+	background: url(../img/header-bg.png);
+	background-size: cover;
+	background-position: center;
+	padding: 10px 150px 20px 150px;
+}
+
+/*nav*/
+
+.my-navbar {
+	padding: 10px 0;
+}
+
+.my-navbar-brand {
+	margin-right: 0;
+}
+
+.my-nav-option {
+    display: flex;
+    justify-content: flex-end;
+	
+	.my-nav-item {
+		padding: 0 20px;
+		
+		.my-nav-link {
+			color: #031d5b;
+			text-decoration: none;
+			text-transform: uppercase;
+		    font-weight: 450;
+
+			&:hover {
+				color: #031d5b;
+			}
+		}
+	}
+}
+
+
+/*hero-header*/
+
+.hero-header {
+	padding: 100px 0;
+
+	.hero-text {
+	    font-size: 35px;
+	    line-height: 1;
+	    font-weight: 450;
+        padding: 150px 65px 40px 0;
+	    margin-bottom: 0;
+	    color: #031d5b;
+	}
+
+	.my-btn {
+		background-color: transparent;
+		border-radius: 0;
+		border: none;
+		font-size: 12px;
+		font-weight: bold;
+		color: #031d5b;
+		background: url(../img/button-bg.png);
+		padding: 10px 30px;
+
+		&:hover {
+			background-color: transparent;			
+		}
+	}
+
+	.arrow-icon {
+		padding: 0 10px;
+	}
+}
+
+.hero-image {
+	width: 90%;
+}
+
+
+

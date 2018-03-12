@@ -1,0 +1,51 @@
+/* */
+
+body {
+	font-family: Liberation Sans Regular;
+}
+
+
+.section-head {
+	text-transform: uppercase;
+	color: #385673;
+	font-size: 14px;
+}
+
+.section-title {
+	font-size: 35px;
+    line-height: 1;
+    font-weight: 450;
+    padding: 15px 0;
+    margin-bottom: 0;
+    color: #031d5b;
+}
+
+.section-description {
+	color: #385673;
+	font-size: 16px;
+	padding-bottom: 30px;
+    margin-bottom: 0;
+}
+
+.my-btn {
+	background-color: transparent;
+	border-radius: 0;
+	border: none;
+	font-size: 12px;
+	font-weight: bold;
+	color: #031d5b;
+	background: url(../img/button-bg.png);
+	padding: 10px 30px;
+
+	&:hover {
+		background-color: transparent;			
+	}
+}
+
+.arrow-icon {
+	padding: 0 10px;
+}
+
+.no-padding-right {
+	padding-right: 0;
+}
